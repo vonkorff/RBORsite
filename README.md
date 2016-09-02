@@ -1,9 +1,9 @@
 # RBOR website info
 
 ## Local work
-'''cd''' to your GitHub/RBORsite folder
+```cd``` to your GitHub/RBORsite folder
 
-'''bundle exec jekyll serve --watch'''
+```bundle exec jekyll serve --watch```
 
 Open localhost:4000 in browser
 
@@ -17,9 +17,12 @@ Open localhost:4000 in browser
 1. Ordered list
 1. Here's number 2! (you should also be bale to type 2. instead of 1. but it could work for both)
 
-You can style just '''code that appears inline'' if you want, or you can...
-  | Create a whole block of code
-  Tooooooo
+You can style just ```code that appears inline``` if you want, or you can...
+```
+Create a whole block of code
+Tooooooo
+Just—like—this
+```
 
 Links look like:
 [A familiar website](http://www.google.com)
