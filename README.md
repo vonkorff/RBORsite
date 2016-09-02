@@ -27,18 +27,25 @@ The following markdown:
 * Etc.
 
 1. Ordered list
-1. Here's number 2! (you should also be bale to type 2. instead of 1. but it could work for both)
+1. Here's number 2! (you should also be able to type 2. instead of 1. but it could work for both)
 
-Links look like:
+For external links:
 [A familiar website](http://www.google.com)
 Don't forget the http:// in your links or the site will append the link to the blog URL
 
+For external images (not in our website repo):
+![](https://www.usa.gov/sites/all/themes/usa/images/Logo_USA.png)
+
+**Important bold information!**
+*Italics just get one asterisk on either side.*
+For internal links and images (blog post, code, file, etc. that lives in the website directory), you should do something different (which won't work in this README, but will work on your local version of the site and on the Jekyll-generated site):
+
 ![]({{ site.baseurl }}/img/teleport.gif)
+
 Note I used {{ site.baseurl }} in that link instead of the full http://beanandnothingness.com/img/teleport.gif
-You should write links that way when linking to anything internal to the website (blog post, code, file, image) so that the links and images work both when working on the site locally and on the live site.
+That lets internal links and images work both when working on the site locally and on the live site, instead of breaking on one or the other.
 ```
 
-Will look like:
 ### Post non-title header
 #### Subheader below that, etc.
 
@@ -48,12 +55,22 @@ Will look like:
 * Etc.
 
 1. Ordered list
-1. Here's number 2! (you should also be bale to type 2. instead of 1. but it could work for both)
+1. Here's number 2! (you should also be able to type 2. instead of 1. but it could work for both)
 
-Links look like:
+For external links:
 [A familiar website](http://www.google.com)
+
 Don't forget the http:// in your links or the site will append the link to the blog URL
 
+For external images (not in our website repo):
+
+![](https://www.usa.gov/sites/all/themes/usa/images/Logo_USA.png)
+
+**Important bold information!**
+*Italics just get one asterisk on either side.*
+For internal links and images (blog post, code, file, etc. that lives in the website directory), you should do something different (which won't work in this README, but will work on your local version of the site and on the Jekyll-generated site):
+
 ![]({{ site.baseurl }}/img/teleport.gif)
+
 Note I used {{ site.baseurl }} in that link instead of the full http://beanandnothingness.com/img/teleport.gif
-You should write links that way when linking to anything internal to the website (blog post, code, file, image) so that the links and images work both when working on the site locally and on the live site.
+That lets internal links and images work both when working on the site locally and on the live site, instead of breaking on one or the other.
