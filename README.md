@@ -2,9 +2,13 @@
 
 Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll site locally and on GitHub Pages is [in my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages)
 
-Local work
-Jekyll cheatsheet
-Markdown cheatsheet
+**Skip to a section:**
+
+* [Local work](https://github.com/amandavisconti/RBORsite#local-work)
+
+* [Jekyll cheatsheet](https://github.com/amandavisconti/RBORsite#jekyll-cheatsheet)
+
+* [Markdown cheatsheet](https://github.com/amandavisconti/RBORsite#markdown-cheatsheet)
 
 ## Local work
 ```cd``` to your GitHub/RBORsite folder
