@@ -381,3 +381,25 @@ body {
 .content-section {
 text-align: left; 
 }
+
+#foo:not(label) { 
+color: #000000 !important;
+}
+
+#foo label { 
+color: #FFFFFF !important;
+}
+
+#signup-submit {
+border-radius: 0.2em;
+border: 0px;
+background: #b5252f;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        background: darken(#b5252f,10%);
+    }
+}
