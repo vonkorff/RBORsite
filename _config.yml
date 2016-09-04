@@ -1,24 +1,79 @@
-# Site settings file!
 # cd /Users/aviscont/Documents/GitHubGeneral/RBORsite 
-# (Or wherever your RBORsite file is on your computer)
 # bundle exec jekyll serve --watch
+# jekyll build --trace to find errors
 
-# Site settings
-title: Bean and Nothingness
-description: 'Bean and Nothingness' 
-#keywords: "puzzle, game"
-#Uncomment line above and add more SEO keywords if desired
+lang: "en"
+author: "RBOR Games"
+title: "Bean and Nothingness"
+description: "Bean and Nothingness is a puzzle game" # This will go into the header code on every page so is useful for SEO & the current text should be...improved
+keywords: "puzzle, game, videogame, game dev" # Add more here for SEO
+favicon: "/img/favicon.ico"
+force-https: True
+email: "FILL@IN"
 
-markdown: kramdown
-baseurl: ""
-permalink: pretty
-permalink: /:year/:month/:day/:title/
+# Header layout
+beanpile-icon: "/img/pile_of_beans.png"
+background-img: "../img/GameTitle_Reduced.png"
 
+# Dynamic typed text on the homepage #
+dynamic-typing: True
+shuffle: False
+loop: False
+loop-count: 0 #False for infinite loop
+type-speed: 30
+start-delay: 300
+delete-delay: 2000
+lines: # Respects HTML, e.g. <em>italic</em> and <strong>bold</strong>
+  - text: "Persevere..."
+  - text: "... the end justifies the beans."
+  
+# Color the browser elements
+color-browser: "#010101"
+apple-status-bar-style: "black"
+
+# Web app mode (icon/title on mobile screen just like a "real" app, links to this website)
+web-app-mode: True
+# Icons for Web App mode (the "app" icons)
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+# Blog
+paginate_path: "blog/page:num/"
+paginate: 5
+email-share: True
+fb-share: True
+twitter-share: True
+reddit-share: True
+syntax-highlight: True
+
+# Social Buttons
+social:
+  - title: "twitter"
+    url: "https://twitter.com/"
+  - title: "github"
+    url: ""
+  - title: "rss"
+    url: "/feed.xml"
+
+# 404 page
+404_img: "/img/teleport.gif"
+
+# Sections shown in the index page
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Signup: 'signup'
+
+# Exclusion list from the generated _site
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock"]
+
+# Google tracking ID
+google-tracking-id: "UA-83629683-1"
+
+# Gems are like Jekyll plugins (hosting on GitHub limits which you can use, though)
 gems:
   - jekyll-paginate
-  - jekyll-seo-tag
-
-paginate: 3
-paginate_path: "/page:num"
-
-exclude: ["Gemfile", "Gemfile.lock"]
