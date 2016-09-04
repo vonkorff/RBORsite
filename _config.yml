@@ -11,7 +11,7 @@ favicon: "/img/favicon.ico"
 force-https: True
 email: "FILL@IN"
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/RBORsite" # the subpath of your site, e.g. /blog
 url: "localhost:4000" # the base hostname & protocol for your site
 
 # Header layout
