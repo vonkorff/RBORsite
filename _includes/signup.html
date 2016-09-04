@@ -5,8 +5,32 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 <h3>Sign up for game release notification</h3>
-<br>
-<p>A signup field will go here. Contact the RBOR gamedev team with any questions at <a href="mailto:{{ site.email }}">{{ site.email }}.</a></p>
+
+<!-- Contact Form - sent to a Google Sheet -->
+<form id='foo'>
+      <p>
+        <label>Email Address</label>
+        <input id='email' name='email' type='email'>
+      </p>
+        <div id='success'></div>
+        <button type='submit'>Send</button>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src='https://raw.githubusercontent.com/amandavisconti/RBORsite/master/js/google-sheet.js'></script>
+
+<!-- need to fix that link to google-sheet.js so works local+live -->
+
+<!--
+<form method="post" action="https://script.google.com/macros/s/AKfycbw17-_xv10gp5h9zk2Ctw5UJ1K3-e5Rzjb4foDknTxuvVE1pX_l/exec" id="signup" target="hidden_iframe">
+<label for="signup">Share your email address to receive an email when the game is released.</label>
+<input id="signup" name="email" type="text" value="" />
+<input id="signup-submit" type="button" value="Submit" class="submit" />
+</form>
+-->
+<!-- Success message needs to be added, hidden/displayed -->
+
+<p>Contact the RBOR gamedev team with any questions at <a href="mailto:{{ site.email }}">{{ site.email }}.</a></p>
 
     </div>
   </div>
