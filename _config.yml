@@ -19,16 +19,16 @@ beanpile-icon: "/img/pile_of_beans.png"
 background-img: "../img/GameTitle_Reduced.png"
 
 # Dynamic typed text on the homepage #
-dynamic-typing: True
-shuffle: False
-loop: False
-loop-count: 0 #False for infinite loop
-type-speed: 30
-start-delay: 300
-delete-delay: 2000
-lines: # Respects HTML, e.g. <em>italic</em> and <strong>bold</strong>
-  - text: "Persevere..."
-  - text: "... the end justifies the beans."
+# dynamic-typing: True
+# shuffle: False
+# loop: False
+# loop-count: 0 #False for infinite loop
+# type-speed: 30
+# start-delay: 300
+# delete-delay: 2000
+# lines: # Respects HTML, e.g. <em>italic</em> and <strong>bold</strong>
+#   - text: "Persevere..."
+#   - text: "... the end justifies the beans."
   
 # Color the browser elements
 color-browser: "#010101"
