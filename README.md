@@ -53,33 +53,6 @@ You'll need to create a new file in _posts, using the same naming convention (e.
 
 You can either create this file locally and then push it to the repo (and it'll appear on the site in a few seconds), or you can [visit the _posts folder in this repo](https://github.com/amandavisconti/RBORsite/tree/master/_posts) and use the "create new file" button to write and immediately publish your post.
 
-## Local work
-You only need to work locally if you want to try stuff not on the live production (public) or dev sites. If you want to do this, you'd need to install some stuff locally using [my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
-
-```cd``` to your GitHub/RBORsite folder
-
-```bundle exec jekyll serve --watch```
-
-Open localhost:4000 in browser (or http://127.0.0.1:4000)
-
-* See changes on the local site as you make them: While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—except for the _config.yml file, for which you must stop running the website and restart running the website to see changes.
-
-* Stop local site: Hit control-c on the command line.
-
-## Live site
-
-To move local changes to your live site (new post, settings tweak, etc.):
-
-* Make the desired changes to your website’s local files.
-
-* Open the GitHub Desktop app, make sure your website is chosen in the left sidebar’s list of repositories, and write your commit message summary (and description if desired).
-
-* Click “Commit to gh-pages” in the lower left.
-
-* After the commit has completed, click “Sync” in the upper right.
-
-* Allow 10-90 seconds for your changes to reach GitHub’s web servers, then visit your website and refresh the page to see your changes live. If the change isn't showing up after that, check your email for a failed build message (I will add everyone as repo collaborators and I think that should let you get these notifications?).
-
 ## Markdown cheatsheet
 
 You can style just ```code that appears inline``` if you want, or you can...
@@ -147,3 +120,30 @@ For internal links and images (blog post, code, file, etc. that lives in the web
 
 Note I used {{ site.baseurl }} in that link instead of the full http://beanandnothingness.com/img/teleport.gif
 That lets internal links and images work both when working on the site locally and on the live site, instead of breaking on one or the other.
+
+## Local work
+You only need to work locally if you want to try stuff not on the live production (public) or dev sites. If you want to do this, you'd need to install some stuff locally using [my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
+
+```cd``` to your GitHub/RBORsite folder
+
+```bundle exec jekyll serve --watch```
+
+Open localhost:4000 in browser (or http://127.0.0.1:4000)
+
+* See changes on the local site as you make them: While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—except for the _config.yml file, for which you must stop running the website and restart running the website to see changes.
+
+* Stop local site: Hit control-c on the command line.
+
+## Live site
+
+To move local changes to your live site (new post, settings tweak, etc.):
+
+* Make the desired changes to your website’s local files.
+
+* Open the GitHub Desktop app, make sure your website is chosen in the left sidebar’s list of repositories, and write your commit message summary (and description if desired).
+
+* Click “Commit to gh-pages” in the lower left.
+
+* After the commit has completed, click “Sync” in the upper right.
+
+* Allow 10-90 seconds for your changes to reach GitHub’s web servers, then visit your website and refresh the page to see your changes live. If the change isn't showing up after that, check your email for a failed build message (I will add everyone as repo collaborators and I think that should let you get these notifications?).
