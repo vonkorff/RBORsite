@@ -28,22 +28,24 @@ Stuff we need/want to do for the website.
   - [ ] Mobile (Android, iOs; phone vert & horizontal views; tablet vert & horiz)
   - [ ] All browser widths/heights
   - [ ] When the window is very wide, the bottom of the banner image on the top is cut off.
-- [ ] Remove typing (for now)
-- [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
-- [ ] Get email field => Google Sheet working; share sheet with team
+- [x] Remove typing (for now)
 - [x] Readme info on how to blog
-- [ ] After domain setup, check that Googel Analytics is filling correctly
-- [ ] @RBORgames profile customize and set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
-- [ ] Clean up unused code
-- [ ] Check if C++ syntax highlighting automatic or requires indvidual encoding
+- [x] @RBORgames profile customize (added avatar and header image from title screen image, went through settings)
 
 *Later:*
+- [ ] After domain setup, check that Google Analytics is filling correctly
+- [ ] Clean up unused code
+- [ ] Check if C++ syntax highlighting automatic or requires indvidual encoding
+- [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
+- [ ] Get email field => Google Sheet working; share sheet with team
 - [ ] Google Analytics custom dashboard to share with team
 - [ ] Test webapp icon on mobile homepage
 - [ ] Google Analytics: advanced site setup (e.g. tie button clicks/downloads to analytics?)
 - [ ] Check the RSS feed is generating correctly
 - [ ] Mock up team section (avatars and bios) on dev site
 - [ ] Mock up media section (screenshots and video) on dev site
+- [ ] Set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
+- [ ] Twitter profile text, finesse avatar/header image, change email to RBOR Games/B&N email
 
 ## I just want to blog
 
