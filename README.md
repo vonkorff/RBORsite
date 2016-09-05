@@ -8,11 +8,11 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
  
 * [I just want to blog](https://github.com/amandavisconti/RBORsite#i-just-want-to-blog)
 
+* [And a markdown cheatsheet would help](https://github.com/amandavisconti/RBORsite#markdown-cheatsheet)
+
 * [Local work](https://github.com/amandavisconti/RBORsite#local-work)
  
 * [Live site](https://github.com/amandavisconti/RBORsite#live-site)
-
-* [Markdown cheatsheet](https://github.com/amandavisconti/RBORsite#markdown-cheatsheet)
 
 ## Tasks
 Stuff we need/want to do for the website.
