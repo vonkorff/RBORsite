@@ -21,7 +21,7 @@ Stuff we need/want to do for the website.
 - [ ] Create separate dev live site for live testing
 - [ ] After domain setup, confirm all URL forms resolve (www/not, end slash/not)
 - [ ] Other stuff on my usual web checklist (e.g. SEO, accessibility, loading speed)
-- [ ] Blog page => each post in full, rather than list of titles
+- [ ] Blog page => each post in full (or expandable excerpt), rather than list of titles
 - [ ] Test site appearance for all possible views:
   - [ ] All OS (mainly for Mac vs PC font-rendering differences)
   - [ ] Browser testing (Firefox, Chrome, Safari; Opera and IE)
