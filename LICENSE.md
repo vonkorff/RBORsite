@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
 Website copyright (c) RBOR Games
+
 Built on Personal Jekyll Theme: copyright (c) 2015 Panos Sakkos
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
