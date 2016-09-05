@@ -18,7 +18,7 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
 Stuff we need/want to do for the website.
 
 *Sooner:*
-- [ ] Create separate dev live site for live testing
+- [ ] Create separate dev live site for live testing (waiting to see if we can just use old GitHub.io site for use with the new "development" branch I created in this repo)
 - [ ] After domain setup, confirm all URL forms resolve (www/not, end slash/not)
 - [ ] Other stuff on my usual web checklist (e.g. SEO, accessibility, loading speed)
 - [ ] Blog page => each post in full (or expandable excerpt), rather than list of titles
