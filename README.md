@@ -4,11 +4,37 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
 
 **Skip to a section:**
 
+* [Tasks](https://github.com/amandavisconti/RBORsite#tasks)
+
 * [Local work](https://github.com/amandavisconti/RBORsite#local-work)
+ 
+* [Live site](https://github.com/amandavisconti/RBORsite#live-site)
 
 * [Jekyll cheatsheet](https://github.com/amandavisconti/RBORsite#jekyll-cheatsheet)
 
 * [Markdown cheatsheet](https://github.com/amandavisconti/RBORsite#markdown-cheatsheet)
+
+## Tasks
+Stuff we need/want to do for the website.
+
+*Sooner:*
+[ ] Create separate dev live site for live testing
+[ ] After domain setup, confirm all URL forms resolve (www/not, end slash/not)
+[ ] Other stuff on my usual web checklist (e.g. SEO, accessibility, loading speed)
+[ ] Test for all possible OS/browser/window size views
+[ ] Remove typing (for now)
+[ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
+[ ] Get email field => Google Sheet working; share sheet with team
+[ ] Readme info on multiple ways to blog (run Jekyll locally/blog in MD and convert to HTML, blog directly on GitHub.com, blog in HTML)
+[ ] After domain setup, check that Googel Analytics is filling correctly
+[ ] @RBORgames profile customize and set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
+[ ] Clean up unused code
+
+*Later:*
+[ ] Google Analytics custom dashboard to share with team
+[ ] Test webapp icon on mobile homepage
+[ ] Google Analytics: advanced site setup (e.g. tie button clicks/downloads to analytics?)
+[ ] Check the RSS feed is generating correctly
 
 ## Local work
 ```cd``` to your GitHub/RBORsite folder
@@ -24,6 +50,8 @@ To test stuff locally (new plugin, theme, how a new blog post looks):
 
 * Stop local site: Hit control-c on the command line.
 
+## Live site
+
 To move local changes to your live site (new post, settings tweak, etc.):
 
 * Make the desired changes to your website’s local files.
@@ -34,7 +62,7 @@ To move local changes to your live site (new post, settings tweak, etc.):
 
 * After the commit has completed, click “Sync” in the upper right.
 
-* Allow 10-90 seconds for your changes to reach GitHub’s web servers, then visit your website and refresh the page to see your changes live.
+* Allow 10-90 seconds for your changes to reach GitHub’s web servers, then visit your website and refresh the page to see your changes live. If the change isn't showing up after that, check your email for a failed build message (I will add everyone as repo collaborators and I think that should let you get these notifications?).
 
 ## Markdown cheatsheet
 
