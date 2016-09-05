@@ -18,23 +18,23 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
 Stuff we need/want to do for the website.
 
 *Sooner:*
-[ ] Create separate dev live site for live testing
-[ ] After domain setup, confirm all URL forms resolve (www/not, end slash/not)
-[ ] Other stuff on my usual web checklist (e.g. SEO, accessibility, loading speed)
-[ ] Test for all possible OS/browser/window size views
-[ ] Remove typing (for now)
-[ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
-[ ] Get email field => Google Sheet working; share sheet with team
-[ ] Readme info on multiple ways to blog (run Jekyll locally/blog in MD and convert to HTML, blog directly on GitHub.com, blog in HTML)
-[ ] After domain setup, check that Googel Analytics is filling correctly
-[ ] @RBORgames profile customize and set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
-[ ] Clean up unused code
+- [ ] Create separate dev live site for live testing
+- [ ] After domain setup, confirm all URL forms resolve (www/not, end slash/not)
+- [ ] Other stuff on my usual web checklist (e.g. SEO, accessibility, loading speed)
+- [ ] Test for all possible OS/browser/window size views
+- [ ] Remove typing (for now)
+- [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
+- [ ] Get email field => Google Sheet working; share sheet with team
+- [ ] Readme info on multiple ways to blog (run Jekyll locally/blog in MD and convert to HTML, blog directly on GitHub.com, blog in HTML)
+- [ ] After domain setup, check that Googel Analytics is filling correctly
+- [ ] @RBORgames profile customize and set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
+- [ ] Clean up unused code
 
 *Later:*
-[ ] Google Analytics custom dashboard to share with team
-[ ] Test webapp icon on mobile homepage
-[ ] Google Analytics: advanced site setup (e.g. tie button clicks/downloads to analytics?)
-[ ] Check the RSS feed is generating correctly
+- [ ] Google Analytics custom dashboard to share with team
+- [ ] Test webapp icon on mobile homepage
+- [ ] Google Analytics: advanced site setup (e.g. tie button clicks/downloads to analytics?)
+- [ ] Check the RSS feed is generating correctly
 
 ## Local work
 ```cd``` to your GitHub/RBORsite folder
