@@ -1,16 +1,16 @@
 # RBOR website info
 
-Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll site locally and on GitHub Pages is [in my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages)
+Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll site locally and on GitHub Pages is [in my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
 
 **Skip to a section:**
 
 * [Tasks](https://github.com/amandavisconti/RBORsite#tasks)
+ 
+* [I just want to blog](https://github.com/amandavisconti/RBORsite#i-just-want-to-blog)
 
 * [Local work](https://github.com/amandavisconti/RBORsite#local-work)
  
 * [Live site](https://github.com/amandavisconti/RBORsite#live-site)
-
-* [Jekyll cheatsheet](https://github.com/amandavisconti/RBORsite#jekyll-cheatsheet)
 
 * [Markdown cheatsheet](https://github.com/amandavisconti/RBORsite#markdown-cheatsheet)
 
@@ -31,7 +31,7 @@ Stuff we need/want to do for the website.
 - [ ] Remove typing (for now)
 - [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
 - [ ] Get email field => Google Sheet working; share sheet with team
-- [ ] Readme info on multiple ways to blog (run Jekyll locally/blog in MD and convert to HTML, blog directly on GitHub.com, blog in HTML)
+- [x] Readme info on how to blog
 - [ ] After domain setup, check that Googel Analytics is filling correctly
 - [ ] @RBORgames profile customize and set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
 - [ ] Clean up unused code
@@ -45,15 +45,20 @@ Stuff we need/want to do for the website.
 - [ ] Mock up team section (avatars and bios) on dev site
 - [ ] Mock up media section (screenshots and video) on dev site
 
+## I just want to blog
+
+You'll need to create a new file in _posts, using the same naming convention (e.g. 2016-05-9-title-using-hyphens-does-not-need-to-match-post-title.md) and including the same header info inside the file (just change the title in that header info, and write one of the following tags: news, development, or release).
+
+You can either create this file locally and then push it to the repo (and it'll appear on the site in a few seconds), or you can [visit the _posts folder in this repo](https://github.com/amandavisconti/RBORsite/tree/master/_posts) and use the "create new file" button to write and immediately publish your post.
+
 ## Local work
+You only need to work locally if you want to try stuff not on the live production (public) or dev sites. If you want to do this, you'd need to install some stuff locally using [my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
+
 ```cd``` to your GitHub/RBORsite folder
 
 ```bundle exec jekyll serve --watch```
 
 Open localhost:4000 in browser (or http://127.0.0.1:4000)
-
-## Jekyll cheatsheet
-To test stuff locally (new plugin, theme, how a new blog post looks):
 
 * See changes on the local site as you make them: While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—except for the _config.yml file, for which you must stop running the website and restart running the website to see changes.
 
