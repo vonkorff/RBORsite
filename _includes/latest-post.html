@@ -5,6 +5,7 @@
       <div class="col-md-10 col-md-offset-1">
 
 {{ page.content | markdownify }}
+{{ post.content | markdownify }}
 
 {% assign post = site.posts.first %}
 {% assign author = site.authors[post.author] %}
