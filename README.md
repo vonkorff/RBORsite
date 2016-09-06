@@ -8,17 +8,17 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
  
 * [I just want to blog](https://github.com/amandavisconti/RBORsite#i-just-want-to-blog)
 
+* [And a markdown cheatsheet would help](https://github.com/amandavisconti/RBORsite#markdown-cheatsheet)
+
 * [Local work](https://github.com/amandavisconti/RBORsite#local-work)
  
 * [Live site](https://github.com/amandavisconti/RBORsite#live-site)
-
-* [Markdown cheatsheet](https://github.com/amandavisconti/RBORsite#markdown-cheatsheet)
 
 ## Tasks
 Stuff we need/want to do for the website.
 
 *Sooner:*
-- [ ] Create separate dev live site for live testing
+- [ ] Create separate dev live site for live testing (waiting to see if we can just use old GitHub.io site for use with the new "development" branch I created in this repo)
 - [ ] After domain setup, confirm all URL forms resolve (www/not, end slash/not)
 - [ ] Other stuff on my usual web checklist (e.g. SEO, accessibility, loading speed)
 - [ ] Blog page => each post in full (or expandable excerpt), rather than list of titles
@@ -28,55 +28,30 @@ Stuff we need/want to do for the website.
   - [ ] Mobile (Android, iOs; phone vert & horizontal views; tablet vert & horiz)
   - [ ] All browser widths/heights
   - [ ] When the window is very wide, the bottom of the banner image on the top is cut off.
-- [ ] Remove typing (for now)
-- [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
-- [ ] Get email field => Google Sheet working; share sheet with team
+- [x] Remove typing (for now)
 - [x] Readme info on how to blog
-- [ ] After domain setup, check that Googel Analytics is filling correctly
-- [ ] @RBORgames profile customize and set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
-- [ ] Clean up unused code
-- [ ] Check if C++ syntax highlighting automatic or requires indvidual encoding
+- [x] @RBORgames profile customize (added avatar and header image from title screen image, went through settings)
 
 *Later:*
+- [ ] After domain setup, check that Google Analytics is filling correctly
+- [ ] Clean up unused code
+- [ ] Check if C++ syntax highlighting automatic or requires indvidual encoding
+- [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
+- [ ] Get email field => Google Sheet working; share sheet with team
 - [ ] Google Analytics custom dashboard to share with team
 - [ ] Test webapp icon on mobile homepage
 - [ ] Google Analytics: advanced site setup (e.g. tie button clicks/downloads to analytics?)
 - [ ] Check the RSS feed is generating correctly
 - [ ] Mock up team section (avatars and bios) on dev site
 - [ ] Mock up media section (screenshots and video) on dev site
+- [ ] Set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
+- [ ] Twitter profile text, finesse avatar/header image, change email to RBOR Games/B&N email
 
 ## I just want to blog
 
 You'll need to create a new file in _posts, using the same naming convention (e.g. 2016-05-9-title-using-hyphens-does-not-need-to-match-post-title.md) and including the same header info inside the file (just change the title in that header info, and write one of the following tags: news, development, or release).
 
 You can either create this file locally and then push it to the repo (and it'll appear on the site in a few seconds), or you can [visit the _posts folder in this repo](https://github.com/amandavisconti/RBORsite/tree/master/_posts) and use the "create new file" button to write and immediately publish your post.
-
-## Local work
-You only need to work locally if you want to try stuff not on the live production (public) or dev sites. If you want to do this, you'd need to install some stuff locally using [my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
-
-```cd``` to your GitHub/RBORsite folder
-
-```bundle exec jekyll serve --watch```
-
-Open localhost:4000 in browser (or http://127.0.0.1:4000)
-
-* See changes on the local site as you make them: While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—except for the _config.yml file, for which you must stop running the website and restart running the website to see changes.
-
-* Stop local site: Hit control-c on the command line.
-
-## Live site
-
-To move local changes to your live site (new post, settings tweak, etc.):
-
-* Make the desired changes to your website’s local files.
-
-* Open the GitHub Desktop app, make sure your website is chosen in the left sidebar’s list of repositories, and write your commit message summary (and description if desired).
-
-* Click “Commit to gh-pages” in the lower left.
-
-* After the commit has completed, click “Sync” in the upper right.
-
-* Allow 10-90 seconds for your changes to reach GitHub’s web servers, then visit your website and refresh the page to see your changes live. If the change isn't showing up after that, check your email for a failed build message (I will add everyone as repo collaborators and I think that should let you get these notifications?).
 
 ## Markdown cheatsheet
 
@@ -145,3 +120,30 @@ For internal links and images (blog post, code, file, etc. that lives in the web
 
 Note I used {{ site.baseurl }} in that link instead of the full http://beanandnothingness.com/img/teleport.gif
 That lets internal links and images work both when working on the site locally and on the live site, instead of breaking on one or the other.
+
+## Local work
+You only need to work locally if you want to try stuff not on the live production (public) or dev sites. If you want to do this, you'd need to install some stuff locally using [my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
+
+```cd``` to your GitHub/RBORsite folder
+
+```bundle exec jekyll serve --watch```
+
+Open localhost:4000 in browser (or http://127.0.0.1:4000)
+
+* See changes on the local site as you make them: While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—except for the _config.yml file, for which you must stop running the website and restart running the website to see changes.
+
+* Stop local site: Hit control-c on the command line.
+
+## Live site
+
+To move local changes to your live site (new post, settings tweak, etc.):
+
+* Make the desired changes to your website’s local files.
+
+* Open the GitHub Desktop app, make sure your website is chosen in the left sidebar’s list of repositories, and write your commit message summary (and description if desired).
+
+* Click “Commit to gh-pages” in the lower left.
+
+* After the commit has completed, click “Sync” in the upper right.
+
+* Allow 10-90 seconds for your changes to reach GitHub’s web servers, then visit your website and refresh the page to see your changes live. If the change isn't showing up after that, check your email for a failed build message (I will add everyone as repo collaborators and I think that should let you get these notifications?).
