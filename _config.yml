@@ -9,17 +9,17 @@ description: "Bean and Nothingness is a puzzle game" # This will go into the hea
 keywords: "puzzle, game, videogame, game dev" # Add more here for SEO
 favicon: "/img/favicon.ico"
 force-https: True
-email: "FILL@IN"
+email: "info@beanandnothingness.com"
 
-baseurl: "/RBORsite" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "beanandnothingness.com" # the base hostname & protocol for your site
 
 # Header layout
 beanpile-icon: "/img/pile_of_beans.png"
 background-img: "../img/GameTitle_Reduced.png"
 
 # Dynamic typed text on the homepage #
-dynamic-typing: True
+dynamic-typing: False
 shuffle: False
 loop: False
 loop-count: 0 #False for infinite loop
