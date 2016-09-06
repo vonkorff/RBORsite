@@ -81,7 +81,7 @@ pages_list:
   Signup: 'signup'
 
 # Exclusion list from the generated _site
-exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".DS_STORE"]
 
 # Google tracking ID
 google-tracking-id: "UA-83629683-1"
