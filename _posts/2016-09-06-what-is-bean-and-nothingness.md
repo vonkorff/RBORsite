@@ -24,7 +24,7 @@ The central design decisions behind the game were based on the things we love ab
 
 - *Challenging*: A lot of puzzle games start out with a good difficulty curve that plateaus pretty quickly, and the final puzzles aren't as hard as the mechanics allow.
 
-- *Deep*: The best puzzle games have mechanics that interact with each other well and that can be mined for interesting puzzles for a long time. It was important to us that the monsters interact with each other and with the beans in ways that lend themselves to lots of interesting puzzles.
+- *Deep*: The best puzzle games have mechanics that interact with each other well and that can be mined for interesting puzzles for a long time. For us, this means careful consideration of the way each monster will interact with every other (and with the all-important beans).
 
 - *Deterministic*: The puzzle mechanics in *Bean and Nothingness* are very tactical: they depend a lot on the exact relationships between the positions of the objects involved. For this to work, it is important for the game to behave predictably --- for the player to know that giving the same inputs at the same times will always have the same effect.
 
