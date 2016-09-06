@@ -3,7 +3,7 @@
 # jekyll build --trace to find errors
 
 lang: "en"
-author: "RBOR Games"
+team: "RBOR Games"
 title: "Bean and Nothingness"
 description: "Bean and Nothingness is a puzzle game" # This will go into the header code on every page so is useful for SEO & the current text should be...improved
 keywords: "puzzle, game, videogame, game dev" # Add more here for SEO
@@ -13,6 +13,15 @@ email: "info@beanandnothingness.com"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "beanandnothingness.com" # the base hostname & protocol for your site
+
+# Blog post authors
+authors:
+  nic:
+    name: Nic Ford
+    email: diffyq@gmail.com
+  jordan:
+    name: Jordan Watkins
+    email: incohatus.none@gmail.com
 
 # Header layout
 beanpile-icon: "/img/pile_of_beans.png"

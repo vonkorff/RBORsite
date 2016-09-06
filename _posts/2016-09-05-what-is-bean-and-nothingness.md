@@ -3,6 +3,7 @@ layout: post
 section-type: post
 title: What is Bean and Nothingness?
 tags: development
+author: nic
 ---
 
 Welcome to the *Bean and Nothingness* development blog! Future posts will cover smaller things that come up during the development of the game, both engineering- and game-design-related, but as we kick off the blog it seems good to spend some time talking about the idea behind the game as a whole and how it came to be.
