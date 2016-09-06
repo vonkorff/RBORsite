@@ -8,7 +8,7 @@ title: "Bean and Nothingness"
 description: "Bean and Nothingness is a puzzle game" # This will go into the header code on every page so is useful for SEO & the current text should be...improved
 keywords: "puzzle, game, videogame, game dev" # Add more here for SEO
 favicon: "/img/favicon.ico"
-force-https: True
+#force-https: True
 email: "info@beanandnothingness.com"
 
 baseurl: "" # the subpath of your site, e.g. /blog
