@@ -49,7 +49,10 @@ Stuff we need/want to do for the website.
 
 ## I just want to blog
 
-You'll need to create a new file in _posts, using the same naming convention (e.g. 2016-05-9-title-using-hyphens-does-not-need-to-match-post-title.md) and including the same header info inside the file (just change the title in that header info, and write one of the following tags: news, development, or release).
+You'll need to create a new file in _posts, using the same naming convention (e.g. 2016-05-9-title-using-hyphens-does-not-need-to-match-post-title.md) and including the same header info inside the file:
+1. change the title
+2. write one of the following tags: news, development, or release (I can set up others if you want them)
+3. make the author line say either nic or jordan (just first name, lowercase)
 
 You can either create this file locally and then push it to the repo (and it'll appear on the site in a few seconds), or you can [visit the _posts folder in this repo](https://github.com/amandavisconti/RBORsite/tree/master/_posts) and use the "create new file" button to write and immediately publish your post.
 
