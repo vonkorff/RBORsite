@@ -35,7 +35,7 @@ Stuff we need/want to do for the website.
 
 *Later:*
 - [x] After domain setup, check that Google Analytics is filling correctly
-- [ ] Clean up unused code
+- [ ] Clean up unused code, inline/condense CSS and JS
 - [ ] Check if C++ syntax highlighting automatic or requires indvidual encoding
 - [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
 - [ ] Get email field => Google Sheet working; share sheet with team
