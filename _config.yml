@@ -18,10 +18,10 @@ url: "beanandnothingness.com" # the base hostname & protocol for your site
 authors:
   nic:
     name: Nic Ford
-    email: diffyq@gmail.com
+    email: nicf@beanandnothingness.com
   jordan:
     name: Jordan Watkins
-    email: incohatus.none@gmail.com
+    email: incnone@beanandnothingness.com
 
 # Header layout
 beanpile-icon: "/img/pile_of_beans.png"
