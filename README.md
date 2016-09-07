@@ -31,6 +31,7 @@ Stuff we need/want to do for the website.
 - [x] Remove typing (for now)
 - [x] Readme info on how to blog
 - [x] @RBORgames profile customize (added avatar and header image from title screen image, went through settings)
+- [ ] Publicity after site checks and email field ready
 
 *Later:*
 - [x] After domain setup, check that Google Analytics is filling correctly
