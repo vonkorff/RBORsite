@@ -27,6 +27,46 @@ h6 {
     letter-spacing: 1px;
 }
 
+input {
+color: #000 !important;
+}
+
+input[type=text] {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus {
+  box-shadow: 0 0 5px #b5252f;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #b5252f;
+}
+
+input[type=submit] {
+  border: 0;
+  padding: 4px 10px 4px 10px !important; 
+  background: #b5252f;
+  color: #FFFFFF !important;
+  border-radius: 2px;
+  	text-transform: uppercase;
+	-webkit-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+}
+
+input[type=submit]:focus {
+color: #FFFFFF;
+  	text-transform: uppercase;
+	-webkit-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+}
+
 #latest-post.content-section h3, h1:not(#latest-post) {
   margin: 0px; 
 }
@@ -382,24 +422,8 @@ body {
 text-align: left; 
 }
 
-#foo:not(label) { 
-color: #000000 !important;
-}
-
-#foo label { 
-color: #FFFFFF !important;
-}
-
-#signup-submit {
-border-radius: 0.2em;
-border: 0px;
-background: #b5252f;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    &:hover,
-    &:focus {
-        text-decoration: none;
-        background: darken(#b5252f,10%);
-    }
+input, .email-label {
+margin: 0 0 35px;
+font-size: 20px;
+line-height: 1.6;
 }
