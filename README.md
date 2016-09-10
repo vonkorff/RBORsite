@@ -1,6 +1,6 @@
 # RBOR website info
 
-Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll site locally and on GitHub Pages is [in my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages)
+Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll site locally and on GitHub Pages is [in my *Programming Historian* lesson](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
 
 **Skip to a section:**
 
