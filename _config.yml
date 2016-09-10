@@ -3,16 +3,25 @@
 # jekyll build --trace to find errors
 
 lang: "en"
-author: "RBOR Games"
+team: "RBOR Games"
 title: "Bean and Nothingness"
 description: "Bean and Nothingness is a puzzle game" # This will go into the header code on every page so is useful for SEO & the current text should be...improved
 keywords: "puzzle, game, videogame, game dev" # Add more here for SEO
 favicon: "/img/favicon.ico"
-force-https: True
-email: "FILL@IN"
+#force-https: True
+email: "info@beanandnothingness.com"
 
-baseurl: "/RBORsite" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "beanandnothingness.com" # the base hostname & protocol for your site
+
+# Blog post authors
+authors:
+  nic:
+    name: Nic Ford
+    email: nicf@beanandnothingness.com
+  jordan:
+    name: Jordan Watkins
+    email: incnone@beanandnothingness.com
 
 # Header layout
 beanpile-icon: "/img/pile_of_beans.png"
@@ -72,7 +81,7 @@ pages_list:
   Signup: 'signup'
 
 # Exclusion list from the generated _site
-exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".DS_STORE"]
 
 # Google tracking ID
 google-tracking-id: "UA-83629683-1"

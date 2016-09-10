@@ -18,10 +18,10 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
 Stuff we need/want to do for the website.
 
 *Sooner:*
-- [ ] Create separate dev live site for live testing
+- [ ] Create separate dev live site for live testing (waiting to see if we can just use old GitHub.io site for use with the new "development" branch I created in this repo)
 - [ ] After domain setup, confirm all URL forms resolve (www/not, end slash/not)
 - [ ] Other stuff on my usual web checklist (e.g. SEO, accessibility, loading speed)
-- [ ] Blog page => each post in full (or expandable excerpt), rather than list of titles
+- [x] Blog page => each post in full (or expandable excerpt), rather than list of titles PLUS include email-linked author name with each post
 - [ ] Test site appearance for all possible views:
   - [ ] All OS (mainly for Mac vs PC font-rendering differences)
   - [ ] Browser testing (Firefox, Chrome, Safari; Opera and IE)
@@ -31,10 +31,11 @@ Stuff we need/want to do for the website.
 - [x] Remove typing (for now)
 - [x] Readme info on how to blog
 - [x] @RBORgames profile customize (added avatar and header image from title screen image, went through settings)
+- [ ] Publicity after site checks and email field ready
 
 *Later:*
-- [ ] After domain setup, check that Google Analytics is filling correctly
-- [ ] Clean up unused code
+- [x] After domain setup, check that Google Analytics is filling correctly
+- [ ] Clean up unused code, inline/condense CSS and JS
 - [ ] Check if C++ syntax highlighting automatic or requires indvidual encoding
 - [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
 - [ ] Get email field => Google Sheet working; share sheet with team
@@ -49,7 +50,10 @@ Stuff we need/want to do for the website.
 
 ## I just want to blog
 
-You'll need to create a new file in _posts, using the same naming convention (e.g. 2016-05-9-title-using-hyphens-does-not-need-to-match-post-title.md) and including the same header info inside the file (just change the title in that header info, and write one of the following tags: news, development, or release).
+You'll need to create a new file in _posts, using the same naming convention (e.g. 2016-05-9-title-using-hyphens-does-not-need-to-match-post-title.md) and including the same header info inside the file:
+1. change the title
+2. write one of the following tags: news, development, or release (I can set up others if you want them)
+3. make the author line say either nic or jordan (just first name, lowercase)
 
 You can either create this file locally and then push it to the repo (and it'll appear on the site in a few seconds), or you can [visit the _posts folder in this repo](https://github.com/amandavisconti/RBORsite/tree/master/_posts) and use the "create new file" button to write and immediately publish your post.
 

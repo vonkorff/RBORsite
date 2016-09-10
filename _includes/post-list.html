@@ -1,15 +1,17 @@
 
 <!-- Post List Start -->
-
-<h4 align="left">
-  <strong>{{ post.date | date_to_string }}</strong>
-<a class="tag" href="{{site.baseurl}}/tags/{{ post.tag | downcase }}.html">
-      {{ post.tag }}
-    </a>
-  <a href="{{site.baseurl}}{{post.url}}">
-    <strong>{{ post.title }}</strong>
-  </a>
-
+{% assign author = site.authors[post.author] %}
+<h3 align="left">
+<a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h3>
+<h4>{{ post.date | date_to_string }} | IN <a class="tag" href="{{site.baseurl}}/tags/{{post.tags}}.html">{{ post.tags }}</a> | BY <a href="mailto:{{author.email}}">{{ author.name }}</a>
 </h4>
+
+
+
+	
+{{ post.content | markdownify }}
+
+
+
 
 <!-- Post List End -->
