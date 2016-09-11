@@ -18,35 +18,37 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
 Stuff we need/want to do for the website.
 
 *Sooner:*
-- [x] Created separate dev repo (only needed for testing things accessing web like email field->Google forms, otherwise test locally)
-- [ ] After domain setup, confirm all URL forms resolve (www/not, end slash/not)
-- [ ] Other stuff on my usual web checklist (e.g. SEO, accessibility, loading speed)
-- [x] Blog page => each post in full (or expandable excerpt), rather than list of titles PLUS include email-linked author name with each post
+- [ ] SEO
+- [ ] Accessibility
+- [ ] Clean up unused code, inline/condense CSS and JS
 - [ ] Test site appearance for all possible views:
   - [ ] All OS (mainly for Mac vs PC font-rendering differences)
   - [ ] Browser testing (Firefox, Chrome, Safari; Opera and IE)
   - [ ] Mobile (Android, iOs; phone vert & horizontal views; tablet vert & horiz)
   - [ ] All browser widths/heights
   - [ ] When the window is very wide, the bottom of the banner image on the top is cut off.
-- [x] Remove typing (for now)
-- [x] Readme info on how to blog
-- [x] @RBORgames profile customize (added avatar and header image from title screen image, went through settings)
 
 *Later:*
-- [x] After domain setup, check that Google Analytics is filling correctly
 - [ ] Publicity after site checks and email field ready
-- [ ] Clean up unused code, inline/condense CSS and JS
 - [ ] Check if C++ syntax highlighting automatic or requires indvidual encoding
 - [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
-- [x] Get email field => Google Sheet working; share sheet with team
 - [ ] Google Analytics custom dashboard to share with team
 - [ ] Test webapp icon on mobile homepage
 - [ ] Google Analytics: advanced site setup (e.g. tie button clicks/downloads to analytics?)
-- [ ] Check the RSS feed is generating correctly (http://beanandnothingness.com/feed.xml, import to feedly and make sure link to website/read more is resolving right)
 - [ ] Mock up team section (avatars and bios) on dev site
 - [ ] Mock up media section (screenshots and video) on dev site
-- [ ] Set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on first save of new _posts file
+- [ ] Set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on 1st save of new /_posts file
 - [ ] Twitter profile text, finesse avatar/header image, change email to RBOR Games/B&N email
+
+*Done:*
+- [x] Get email field => Google Sheet working; share sheet with team
+- [x] Remove typing (for now)
+- [x] Readme info on how to blog
+- [x] @RBORgames profile customize (added avatar and header image from title screen image, went through settings)
+- [x] Blog page => each post in full (or expandable excerpt), rather than list of titles PLUS include email-linked author name with each post
+- [x] After domain setup, check that Google Analytics is filling correctly
+- [x] Created separate dev repo (only needed for testing things accessing web like email field->Google forms, otherwise test locally)
+- [x] Check the RSS feed is generating correctly (http://beanandnothingness.com/feed.xml)
 
 ## I just want to blog
 
