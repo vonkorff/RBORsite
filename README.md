@@ -30,7 +30,7 @@ Stuff we need/want to do for the website.
 
 *Later:*
 - [ ] Publicity after site checks and email field ready
-- [ ] Check if C++ syntax highlighting automatic or requires indvidual encoding
+- [ ] C++ syntax highlighting should be automatic via Rouge, but isn't working for some reason
 - [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
 - [ ] Google Analytics custom dashboard to share with team
 - [ ] Test webapp icon on mobile homepage
