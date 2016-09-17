@@ -27,6 +27,7 @@ Stuff we need/want to do for the website.
   - [ ] Mobile (Android, iOs; phone vert & horizontal views; tablet vert & horiz)
   - [ ] All browser widths/heights
   - [ ] When the window is very wide, the bottom of the banner image on the top is cut off.
+- [ ] Mock up team section (avatars and bios) on dev site
 
 *Later:*
 - [ ] Publicity after site checks and email field ready
@@ -35,7 +36,6 @@ Stuff we need/want to do for the website.
 - [ ] Google Analytics custom dashboard to share with team
 - [ ] Test webapp icon on mobile homepage
 - [ ] Google Analytics: advanced site setup (e.g. tie button clicks/downloads to analytics?)
-- [ ] Mock up team section (avatars and bios) on dev site
 - [ ] Mock up media section (screenshots and video) on dev site
 - [ ] Set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on 1st save of new /_posts file
 - [ ] Twitter profile text, finesse avatar/header image, change email to RBOR Games/B&N email
