@@ -76,6 +76,7 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
+  Team: 'team'
   Signup: 'signup'
 
 # Exclusion list from the generated _site
