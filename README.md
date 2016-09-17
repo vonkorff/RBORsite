@@ -27,7 +27,7 @@ Stuff we need/want to do for the website.
   - [ ] Mobile (Android, iOs; phone vert & horizontal views; tablet vert & horiz)
   - [ ] All browser widths/heights
   - [ ] When the window is very wide, the bottom of the banner image on the top is cut off.
-- [ ] Mock up team section (avatars and bios) on dev site
+- [ ] Change team section from bullets to avatars and short bios
 
 *Later:*
 - [ ] Publicity after site checks and email field ready
