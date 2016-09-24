@@ -18,9 +18,6 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
 Stuff we need/want to do for the website.
 
 *Sooner:*
-- [ ] SEO
-- [ ] Accessibility
-- [ ] Clean up unused code, inline/condense CSS and JS
 - [ ] Test site appearance for all possible views:
   - [ ] All OS (mainly for Mac vs PC font-rendering differences)
   - [ ] Browser testing (Firefox, Chrome, Safari; Opera and IE)
@@ -28,16 +25,16 @@ Stuff we need/want to do for the website.
   - [ ] All browser widths/heights
   - [ ] When the window is very wide, the bottom of the banner image on the top is cut off.
 - [ ] Change team section from bullets to avatars and short bios
+- [ ] Video time!
+  - [ ] Push attributions.md, attributions.html, layout/page to live site
+  - [ ] Embed vide on front page
+  - [ ] Add text under video linking to attribution page
 
 *Later:*
-- [ ] Publicity after site checks and email field ready
 - [ ] C++ syntax highlighting should be automatic via Rouge, but isn't working for some reason
 - [ ] Change 4 social buttons (under blog posts) to shades of red/dusky purple
-- [ ] Google Analytics custom dashboard to share with team
 - [ ] Test webapp icon on mobile homepage
 - [ ] Google Analytics: advanced site setup (e.g. tie button clicks/downloads to analytics?)
-- [ ] Mock up media section (screenshots and video) on dev site
-- [ ] Set up auto-tweet when a new post hits the repo (= hits the RSS feed); note this immediate on 1st save of new /_posts file
 - [ ] Twitter profile text, finesse avatar/header image, change email to RBOR Games/B&N email
 
 *Done:*
