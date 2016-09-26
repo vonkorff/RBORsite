@@ -18,17 +18,8 @@ Info on why Jekyll is cool, what Jekyll does, and how to set up your own Jekyll 
 Stuff we need/want to do for the website.
 
 *Sooner:*
-- [ ] Test site appearance for all possible views:
-  - [ ] All OS (mainly for Mac vs PC font-rendering differences)
-  - [ ] Browser testing (Firefox, Chrome, Safari; Opera and IE)
-  - [ ] Mobile (Android, iOs; phone vert & horizontal views; tablet vert & horiz)
-  - [ ] All browser widths/heights
-  - [x] When the window is very wide, the bottom of the banner image on the top is cut off.
 - [ ] Change team section from bullets to avatars and short bios
-- [ ] Video time!
-  - [ ] Push attributions.md, attributions.html, layout/page to live site
-  - [x] Embed video on front page
-  - [x] Add text under video linking to attribution page
+- [x] Video time!
 
 *Later:*
 - [ ] C++ syntax highlighting should be automatic via Rouge, but isn't working for some reason
