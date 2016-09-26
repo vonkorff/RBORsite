@@ -8,7 +8,7 @@
 
 {% assign post = site.posts.first %}
 {% assign author = site.authors[post.author] %}
-	<h3>Latest Blog Post: <a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></h3>
+	<h2>Latest Blog Post: <a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></h2>
 	<h4>{{ post.date | date_to_string }} | <a class="tag" href="{{site.baseurl}}/tags/{{post.tags}}.html">{{ post.tags }}</a> | BY <a href="mailto:{{author.email}}">{{ author.name }}</a></h4>
 	
 {{ post.content | markdownify }}

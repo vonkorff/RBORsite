@@ -22,11 +22,11 @@ The project began a few years ago when most of us were in the math Ph.D. program
 
 The central design decisions behind the game were based on the things we love about the puzzle games we've enjoyed the most. Specifically, it was important from very early on that *Bean and Nothingness* be:
 
-- *Challenging*: A lot of puzzle games start out with a good difficulty curve that plateaus pretty quickly, and the final puzzles aren't as hard as the mechanics allow.
+* *Challenging*: A lot of puzzle games start out with a good difficulty curve that plateaus pretty quickly, and the final puzzles aren't as hard as the mechanics allow.
 
-- *Deep*: The best puzzle games have mechanics that interact with each other well and that can be mined for interesting puzzles for a long time. For us, this means careful consideration of the way each monster will interact with every other (and with the all-important beans).
+* *Deep*: The best puzzle games have mechanics that interact with each other well and that can be mined for interesting puzzles for a long time. For us, this means careful consideration of the way each monster will interact with every other (and with the all-important beans).
 
-- *Deterministic*: The puzzle mechanics in *Bean and Nothingness* are very tactical: they depend a lot on the exact relationships between the positions of the objects involved. For this to work, it is important for the game to behave predictably --- for the player to know that giving the same inputs at the same times will always have the same effect.
+* *Deterministic*: The puzzle mechanics in *Bean and Nothingness* are very tactical: they depend a lot on the exact relationships between the positions of the objects involved. For this to work, it is important for the game to behave predictably --- for the player to know that giving the same inputs at the same times will always have the same effect.
 
 [Stephen's Sausage Roll](http://www.stephenssausageroll.com/) and [Snakebird](http://snakebird.noumenongames.com/) are great examples of games that got these things right. *Bean and Nothingness* has one aspect that these games don't, though: all of the action takes place in real time. This decision, which was also made quite early, made achieving these goals quite a bit harder, especially the determinism. Most real-time puzzle games have looser mechanics than a step-based game like *Snakebird*, but in designing *Bean and Nothingness* it's been important to us to never sacrifice the sort of precision that allows for deep and complicated puzzles.
 
