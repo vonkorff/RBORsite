@@ -23,12 +23,12 @@ Stuff we need/want to do for the website.
   - [ ] Browser testing (Firefox, Chrome, Safari; Opera and IE)
   - [ ] Mobile (Android, iOs; phone vert & horizontal views; tablet vert & horiz)
   - [ ] All browser widths/heights
-  - [ ] When the window is very wide, the bottom of the banner image on the top is cut off.
+  - [x] When the window is very wide, the bottom of the banner image on the top is cut off.
 - [ ] Change team section from bullets to avatars and short bios
 - [ ] Video time!
   - [ ] Push attributions.md, attributions.html, layout/page to live site
-  - [ ] Embed vide on front page
-  - [ ] Add text under video linking to attribution page
+  - [x] Embed video on front page
+  - [x] Add text under video linking to attribution page
 
 *Later:*
 - [ ] C++ syntax highlighting should be automatic via Rouge, but isn't working for some reason
